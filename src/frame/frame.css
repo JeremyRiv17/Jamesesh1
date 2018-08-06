@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Concert+One%7COrbitron");
+/* HEADER */
+
+#masterhead {
+  width: 100%;
+  height: 80px;
+  background: black;
+  color: white;
+}
+
+#masterhead a {
+  text-decoration: none;
+  color: white;
+}
+
+#masterhead a:hover {
+  color: black;
+  background: white;
+}
+
+#jamlogo {
+  float: left;
+  margin-left: 75px;
+  margin-top: 6px;
+  color: white;
+  border: solid white 2px;
+  font-size: 55px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 7px;
+}
+
+#startup {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-top: 3px;
+  margin-right: 53.5px;
+}
+
+#startup a:hover {
+  color: black;
+  background: white;
+}
+
+/* #signup {
+  width: 80px;
+  height: 20px;
+  border: solid white 2px;
+  color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 7px;
+}
+
+#login {
+  width: 80px;
+  height: 20px;
+  border: solid white 2px;
+  color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 7px;
+} */
+
+.firebaseui-idp-button {
+  width: 80px;
+  height: 20px;
+  border: solid white 2px;
+  color: black;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 7px;
+}
+
+
+/* FOOTER */
+
+#masterfoot {
+background: black;
+color: white;
+bottom: 0;
+position: fixed;
+height: 80px;
+width: 100%;
+}
+
+#footertext {
+  margin-top: 35px;
+}
+
+/* HOVER OVER ANIMATIONS */
+
+/* Back Pulse */
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    /* background-color: rgba(32, 152, 209, 0.75); */
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    /* background-color: rgba(32, 152, 209, 0.75); */
+  }
+}
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* background-color: #2098D1; */
+  /* background-color: #2098d1; */
+  /* color: white; */
+}
